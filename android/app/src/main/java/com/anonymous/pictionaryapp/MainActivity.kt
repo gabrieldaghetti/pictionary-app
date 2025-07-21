@@ -1,4 +1,4 @@
-package com.pictionaryapp
+package com.anonymous.pictionaryapp
 
 import android.os.Build
 import android.os.Bundle

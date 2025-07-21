@@ -1,4 +1,4 @@
-package com.pictionaryapp
+package com.anonymous.pictionaryapp
 
 import android.app.Application
 import android.content.res.Configuration

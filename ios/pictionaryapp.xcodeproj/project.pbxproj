@@ -11,6 +11,11 @@
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		290E463307264F13945B8063 /* drawing_kitty.riv in Resources */ = {isa = PBXBuildFile; fileRef = B171C62B4F2A4E01BAF457FE /* drawing_kitty.riv */; };
+		69042D326B69441AAB0FA196 /* kitty.riv in Resources */ = {isa = PBXBuildFile; fileRef = 71DF5F8E519D457FB2D370B7 /* kitty.riv */; };
+		89710644474A4F96AF38A5EF /* rate_your_coffe_popup.riv in Resources */ = {isa = PBXBuildFile; fileRef = 43BF71DD6CB940B193C8CBA1 /* rate_your_coffe_popup.riv */; };
+		CC0E4D98FED24CB9825181CC /* password.riv in Resources */ = {isa = PBXBuildFile; fileRef = 1F58D85C6D2D4562BF189CB4 /* password.riv */; };
+		ED5435601C474516A2DBCD9E /* document_shuffle.riv in Resources */ = {isa = PBXBuildFile; fileRef = E73725EC82C24E19AB7DA2CA /* document_shuffle.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = pictionaryapp/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* pictionaryapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "pictionaryapp-Bridging-Header.h"; path = "pictionaryapp/pictionaryapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		B171C62B4F2A4E01BAF457FE /* drawing_kitty.riv */ = {isa = PBXFileReference; name = "drawing_kitty.riv"; path = "/home/gabrieldaghetti/Projects/pictionary-app/ios/Assets/drawing_kitty.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		71DF5F8E519D457FB2D370B7 /* kitty.riv */ = {isa = PBXFileReference; name = "kitty.riv"; path = "/home/gabrieldaghetti/Projects/pictionary-app/ios/Assets/kitty.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		43BF71DD6CB940B193C8CBA1 /* rate_your_coffe_popup.riv */ = {isa = PBXFileReference; name = "rate_your_coffe_popup.riv"; path = "/home/gabrieldaghetti/Projects/pictionary-app/ios/Assets/rate_your_coffe_popup.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F58D85C6D2D4562BF189CB4 /* password.riv */ = {isa = PBXFileReference; name = "password.riv"; path = "/home/gabrieldaghetti/Projects/pictionary-app/ios/Assets/password.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E73725EC82C24E19AB7DA2CA /* document_shuffle.riv */ = {isa = PBXFileReference; name = "document_shuffle.riv"; path = "/home/gabrieldaghetti/Projects/pictionary-app/ios/Assets/document_shuffle.riv"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +80,11 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				B171C62B4F2A4E01BAF457FE /* drawing_kitty.riv */,
+				71DF5F8E519D457FB2D370B7 /* kitty.riv */,
+				43BF71DD6CB940B193C8CBA1 /* rate_your_coffe_popup.riv */,
+				1F58D85C6D2D4562BF189CB4 /* password.riv */,
+				E73725EC82C24E19AB7DA2CA /* document_shuffle.riv */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -155,6 +170,11 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				290E463307264F13945B8063 /* drawing_kitty.riv in Resources */,
+				69042D326B69441AAB0FA196 /* kitty.riv in Resources */,
+				89710644474A4F96AF38A5EF /* rate_your_coffe_popup.riv in Resources */,
+				CC0E4D98FED24CB9825181CC /* password.riv in Resources */,
+				ED5435601C474516A2DBCD9E /* document_shuffle.riv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +277,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.pictionaryapp;
-				PRODUCT_NAME = pictionaryapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.pictionaryapp";
+				PRODUCT_NAME = "pictionaryapp";
 				SWIFT_OBJC_BRIDGING_HEADER = "pictionaryapp/pictionaryapp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				TARGETED_DEVICE_FAMILY = "1";
+				CODE_SIGN_ENTITLEMENTS = pictionaryapp/pictionaryapp.entitlements;
 			};
 			name = Debug;
 		};
@@ -284,11 +306,13 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.pictionaryapp;
-				PRODUCT_NAME = pictionaryapp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anonymous.pictionaryapp";
+				PRODUCT_NAME = "pictionaryapp";
 				SWIFT_OBJC_BRIDGING_HEADER = "pictionaryapp/pictionaryapp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+				TARGETED_DEVICE_FAMILY = "1";
+				CODE_SIGN_ENTITLEMENTS = pictionaryapp/pictionaryapp.entitlements;
 			};
 			name = Release;
 		};

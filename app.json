@@ -2,6 +2,22 @@
   "expo": {
     "name": "pictionary-app",
     "slug": "pictionary-app",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      [
+        "expo-custom-assets",
+        {
+          "assetsPaths": [
+            "./src/assets/"
+          ]
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.anonymous.pictionaryapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.pictionaryapp"
+    }
   }
 }
